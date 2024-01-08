@@ -1,5 +1,7 @@
 body {
     background-color: #1E2329;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 h1 {
@@ -8,3 +10,11 @@ h1 {
     font-size: 64px;
     color: #F3BA2F;
 }
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: #F3BA2F;
+}
+
