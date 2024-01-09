@@ -31,3 +31,18 @@ p {
     color: white;
     border-color: rgba(236, 214, 138, 0.9);
 }
+
+.card-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.card {
+    height: calc(144px / 2 * 3);
+    width: 96px;
+    border-radius: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5 ease-in-out;
+}
