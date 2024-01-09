@@ -1,2 +1,28 @@
 /* jshint esversion: 11 */
 
+[
+    {
+        "image": "../assets/images/card-clubs.png",
+        "name": "clubs"
+    },
+    {
+        "image": "../assets/images/card-diamonds.png",
+        "name": "diamonds"
+    },
+    {
+        "image": "../assets/images/card-hearts.png",
+        "name": "hearts"
+    },
+    {
+        "image": "../assets/images/card-spades.png",
+        "name": "spades"
+    },
+    {
+        "image": "../assets/images/card-queens.png",
+        "name": "queens"
+    },
+    {
+        "image": "../assets/images/card-kings.png",
+        "name": "kings"
+    }
+]
