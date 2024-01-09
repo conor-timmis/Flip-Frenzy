@@ -33,3 +33,31 @@ fetch("./assets/data/cards.json");
         cards[randomIndex] = temporaryValue;
     }
  }
+
+ function generateCards() {
+
+ }
+
+ function flipCard() {
+
+ }
+
+ function checkForMatch() {
+
+ }
+
+ function disableCards() {
+
+ }
+
+ function unflipCards() {
+
+ }
+
+ function resetBoard() {
+
+ }
+
+ function restart() {
+
+ }
