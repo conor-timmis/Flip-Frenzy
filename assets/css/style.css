@@ -46,3 +46,16 @@ p {
     transform-style: preserve-3d;
     transition: all 0.5 ease-in-out;
 }
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
