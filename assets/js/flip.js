@@ -35,20 +35,27 @@ fetch("./assets/data/cards.json")
  }
 
  function generateCards() {
-        for (let card of cards) {
-            const cardElement = document.createElement("div");
-            cardElement.classList.add("card");
-            cardElement.setAttribute("data-name", card.name);
-            cardElement.innerHTML = `
-            <div class="front">
-            <img class="front-image" src=${card.image} />
+    const maxAllowedOccurrences = 3;
+    const cardBackOccurrences = {};
+    for (let card of cards) {
+        const cardElement = document.createElement("div");
+        cardElement.classList.add("card");
+        cardElement.setAttribute("data-name", card.name);
+        let randomBack;
+        do {
+            randomBack = Math.floor(Math.random() * 4) + 1;
+        } while (cardBackOccurrences[randomBack] >= maxAllowedOccurrences);
+        cardBackOccurrences[randomBack] = (cardBackOccurrences[randomBack] || 0) + 1;
+        cardElement.innerHTML = `
+            <div class="card-container">
+                <img src="assets/images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
+                <img src="${card.image}" alt="${card.name}" class="card front flipped">
             </div>
-            <div class="back"></div>
-            `;
-            cardContainer.appendChild(cardElement);
-            cardElement.addEventListener("click", flipCard);
-        }
+        `;
+        cardContainer.appendChild(cardElement);
+        cardElement.addEventListener("click", flipCard);
     }
+}
  
     function flipCard() {
         if (lockBoard || this === firstCard) {
