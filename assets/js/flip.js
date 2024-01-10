@@ -50,9 +50,17 @@ fetch("./assets/data/cards.json")
         }
     }
  
- function flipCard() {
-
- }
+    function flipCard() {
+        if (lockBoard || this === firstCard) {
+            return;
+        }
+    
+        this.classList.add("flipped");
+    
+        if (!firstCard) {
+            firstCard = this;
+        }
+    }
 
  function checkForMatch() {
 
