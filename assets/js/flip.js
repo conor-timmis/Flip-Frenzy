@@ -69,9 +69,11 @@ fetch("./assets/data/cards.json")
         checkForMatch();
     }
 
- function checkForMatch() {
+    function checkForMatch() {
+        let isMatch = firstCard.dataset.name === secondCard.dataset.name;
     
- }
+        isMatch ? disableCards() : unflipCards();
+    }
 
  function disableCards() {
 
