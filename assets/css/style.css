@@ -66,3 +66,19 @@ p {
     height: 100%;
     width: 100%;
 }
+
+@media screen and (min-width: 890px) {
+    h1 {
+        font-size: 92px;
+    }
+    .card-container {
+        grid-template-columns: repeat(6, 140px);
+        grid-template-rows: repeat(2, calc(140px / 2 * 3));
+    }
+    .restartb button {
+        font-size: 36px;
+    }
+    p {
+        font-size: 48px;
+    }
+}
