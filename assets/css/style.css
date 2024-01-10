@@ -41,6 +41,8 @@ p {
     display: grid;
     justify-content: center;
     grid-gap: 10px;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(2, calc(120px / 2 * 3));
 }
 
 .card {
