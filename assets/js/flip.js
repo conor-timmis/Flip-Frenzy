@@ -75,8 +75,11 @@ fetch("./assets/data/cards.json")
         isMatch ? disableCards() : unflipCards();
     }
 
- function disableCards() {
-
+    function disableCards() {
+        firstCard.removeEventListener("click", flipCard);
+        secondCard.removeEventListener("click", flipCard);
+    
+        resetBoard();
  }
 
  function unflipCards() {
