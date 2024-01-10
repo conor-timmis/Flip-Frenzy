@@ -35,9 +35,21 @@ fetch("./assets/data/cards.json")
  }
 
  function generateCards() {
-
- }
-
+        for (let card of cards) {
+            const cardElement = document.createElement("div");
+            cardElement.classList.add("card");
+            cardElement.setAttribute("data-name", card.name);
+            cardElement.innerHTML = `
+            <div class="front">
+            <img class="front-image" src=${card.image} />
+            </div>
+            <div class="back"></div>
+            `;
+            cardContainer.appendChild(cardElement);
+            cardElement.addEventListener("click", flipCard);
+        }
+    }
+ 
  function flipCard() {
 
  }
