@@ -83,7 +83,11 @@ fetch("./assets/data/cards.json")
  }
 
  function unflipCards() {
-
+    setTimeout(() => {
+        firstCard.classList.remove("flipped");
+        secondCard.classList.remove("flipped");
+        resetBoard();
+      }, 1000);
  }
 
  function resetBoard() {
