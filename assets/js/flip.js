@@ -1,6 +1,6 @@
 /* jshint esversion: 11 */
 
-Const cardContainer = document.querySelector(".card-container");
+const cardContainer = document.getElementById("card-container");
 let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
@@ -13,7 +13,7 @@ function restart() {
     location.reload();
 }
 
-fetch("./assets/data/cards.json");
+fetch("./assets/data/cards.json")
  .then((res) => res.json())
  .then((data) => {
     cards = [...data, ...data];
@@ -55,9 +55,5 @@ fetch("./assets/data/cards.json");
  }
 
  function resetBoard() {
-
- }
-
- function restart() {
 
  }
