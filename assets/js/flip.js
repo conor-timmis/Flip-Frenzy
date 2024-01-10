@@ -60,10 +60,17 @@ fetch("./assets/data/cards.json")
         if (!firstCard) {
             firstCard = this;
         }
+    
+        secondCard = this;
+        score++;
+        document.querySelector(".score").textContent = score;
+        lockBoard = true;
+    
+        checkForMatch();
     }
 
  function checkForMatch() {
-
+    
  }
 
  function disableCards() {
