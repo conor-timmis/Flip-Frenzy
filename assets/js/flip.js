@@ -91,5 +91,7 @@ fetch("./assets/data/cards.json")
  }
 
  function resetBoard() {
-
+    firstCard = null;
+    secondCard = null;
+    lockBoard = false;
  }
