@@ -7,27 +7,27 @@ let lockBoard = false;
 let score = 0;
 
 fetch("./assets/data/cards.json")
- .then((res) => res.json())
- .then((data) => {
-    cards = [...data, ...data];
-    shuffleCards();
-    generateCards();
- });
+    .then((res) => res.json())
+    .then((data) => {
+        cards = [...data, ...data];
+        shuffleCards();
+        generateCards();
+    });
 
- function shuffleCards() {
+function shuffleCards() {
     let currentIndex = cards.length,
-    randomIndex,
-    temporaryValue;
+        randomIndex,
+        temporaryValue;
     while (currentIndex !== 0) {
-        randomIndex  = Math.floor(Math.random() * currentIndex);
+        randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
         temporaryValue = cards[currentIndex];
         cards[currentIndex] = cards[randomIndex];
         cards[randomIndex] = temporaryValue;
     }
- }
+}
 
- function generateCards() {
+function generateCards() {
     const maxAllowedOccurrences = 3;
     const cardBackOccurrences = {};
     for (let card of cards) {
@@ -49,53 +49,67 @@ fetch("./assets/data/cards.json")
         cardElement.addEventListener("click", flipCard);
     }
 }
- 
-    function flipCard() {
-        if (lockBoard || this === firstCard) {
-            return;
-        }
-    
-        this.classList.add("flipped");
-    
-        if (!firstCard) {
-            firstCard = this;
-        } else {
-            secondCard = this;
-            checkForMatch();
-        }
-    }
-    
 
-    function checkForMatch() {
-        let isMatch = firstCard.dataset.name === secondCard.dataset.name;
-    
-        isMatch ? disableCards() : unflipCards();
+function flipCard() {
+    if (lockBoard || this === firstCard) {
+        return;
     }
 
-    function disableCards() {
-        firstCard.removeEventListener("click", flipCard);
-        secondCard.removeEventListener("click", flipCard);
-    
-        resetBoard();
- }
+    this.classList.add("flipped");
 
- function unflipCards() {
+    if (!firstCard) {
+        firstCard = this;
+    } else {
+        secondCard = this;
+        checkForMatch();
+    }
+}
+
+function checkForMatch() {
+    let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+
+    if (isMatch) {
+        disableCards();
+        score++;
+        document.querySelector(".score").textContent = score;
+        if (score === cards.length / 2) {
+            resetScore();
+        }
+    } else {
+        unflipCards();
+    }
+}
+
+function disableCards() {
+    firstCard.removeEventListener("click", flipCard);
+    secondCard.removeEventListener("click", flipCard);
+
+    resetBoard();
+}
+
+function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove("flipped");
         secondCard.classList.remove("flipped");
         resetBoard();
-      }, 1000);
- }
+    }, 1000);
+}
 
- function resetBoard() {
+function resetBoard() {
     firstCard = null;
     secondCard = null;
     lockBoard = false;
- }
+}
+
+function resetScore() {
+    score = 0;
+    document.querySelector(".score").textContent = score;
+}
 
 let restartBtn = document.getElementById("restart-btn");
 restartBtn.addEventListener("click", restart);
 
 function restart() {
+    restartButtonPressed = true;
     location.reload();
 }
