@@ -101,10 +101,7 @@ function resetBoard() {
     lockBoard = false;
 }
 
-function resetScore() {
-    score = 0;
-    document.querySelector(".score").textContent = score;
-}
+let restartButtonPressed = false;
 
 let restartBtn = document.getElementById("restart-btn");
 restartBtn.addEventListener("click", restart);
@@ -112,4 +109,9 @@ restartBtn.addEventListener("click", restart);
 function restart() {
     restartButtonPressed = true;
     location.reload();
+}
+
+function resetScore() {
+    score = 6;
+    document.querySelector(".score").textContent = score;
 }
