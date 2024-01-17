@@ -6,13 +6,6 @@ let firstCard, secondCard;
 let lockBoard = false;
 let score = 0;
 
-let restartBtn = document.getElementById("restart-btn");
-restartBtn.addEventListener("click", restart);
-
-function restart() {
-    location.reload();
-}
-
 fetch("./assets/data/cards.json")
  .then((res) => res.json())
  .then((data) => {
@@ -66,15 +59,12 @@ fetch("./assets/data/cards.json")
     
         if (!firstCard) {
             firstCard = this;
+        } else {
+            secondCard = this;
+            checkForMatch();
         }
-    
-        secondCard = this;
-        score++;
-        document.querySelector(".score").textContent = score;
-        lockBoard = true;
-    
-        checkForMatch();
     }
+    
 
     function checkForMatch() {
         let isMatch = firstCard.dataset.name === secondCard.dataset.name;
@@ -102,3 +92,10 @@ fetch("./assets/data/cards.json")
     secondCard = null;
     lockBoard = false;
  }
+
+let restartBtn = document.getElementById("restart-btn");
+restartBtn.addEventListener("click", restart);
+
+function restart() {
+    location.reload();
+}
