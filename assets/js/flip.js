@@ -42,7 +42,7 @@ function generateCards() {
         cardElement.innerHTML = `
             <div class="card-container">
                 <img src="assets/images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
-                <img src="${card.image}" alt="${card.name}" class="card front flipped">
+                <img src="/assets/images/${card.image}" alt="${card.name}" class="card front flipped">
             </div>
         `;
         cardContainer.appendChild(cardElement);
