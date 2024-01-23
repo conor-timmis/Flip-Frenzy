@@ -8,6 +8,17 @@ let score = 0;
 let attempts = document.querySelector('.Attempts');
 let totalAttempts = 0;
 
+document.addEventListener('DOMContentLoaded', function () {
+    var howToPlayButton = document.getElementById('htp-button');
+    var howToPlaySection = document.getElementById('howtoplay');
+
+    if (howToPlayButton && howToPlaySection) {
+        howToPlayButton.addEventListener('click', function () {
+            howToPlaySection.style.display = (howToPlaySection.style.display === 'block') ? 'none' : 'block';
+        });
+    }
+});
+
 fetch("./assets/data/cards.json")
     .then((res) => res.json())
     .then((data) => {
