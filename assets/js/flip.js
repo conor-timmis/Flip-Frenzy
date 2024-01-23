@@ -5,6 +5,8 @@ let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
 let score = 0;
+let attempts = document.querySelector('.Attempts');
+let totalAttempts = 0;
 
 fetch("./assets/data/cards.json")
     .then((res) => res.json())
@@ -41,7 +43,7 @@ function generateCards() {
         cardBackOccurrences[randomBack] = (cardBackOccurrences[randomBack] || 0) + 1;
         cardElement.innerHTML = `
             <div class="card-container">
-                <img src="/assets/images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
+                <img src="images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
                 <img src="images/${card.image}" alt="${card.name}" class="card front flipped">
             </div>
         `;
@@ -61,6 +63,8 @@ function flipCard() {
         firstCard = this;
     } else {
         secondCard = this;
+        totalAttempts++;
+        attemptsDisplay();
         checkForMatch();
     }
 }
@@ -83,6 +87,10 @@ function checkForMatch() {
         lockBoard = true;
         unflipCards();
     }
+}
+
+function attemptsDisplay() {
+    attempts.textContent = totalAttempts;
 }
 
 function disableCards() {
