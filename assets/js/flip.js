@@ -66,6 +66,10 @@ function flipCard() {
 }
 
 function checkForMatch() {
+    if (lockBoard || !firstCard || !secondCard) {
+        return;
+    }
+
     let isMatch = firstCard.dataset.name === secondCard.dataset.name;
 
     if (isMatch) {
@@ -92,7 +96,7 @@ function unflipCards() {
         firstCard.classList.remove("flipped");
         secondCard.classList.remove("flipped");
         resetBoard();
-    }, 350);
+    }, 250);
 }
 
 function resetBoard() {
