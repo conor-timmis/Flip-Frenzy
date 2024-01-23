@@ -30,7 +30,7 @@ p {
 
 .restartb button {
     font-family: 'DotGothic16', sans-serif;
-    font-size: 24px;
+    font-size: 36px;
     border-radius: 10px;
     background-color: rgba(55, 207, 121, 0.65);
     color: white;
@@ -44,6 +44,22 @@ p {
     grid-template-columns: repeat(4, 120px);
     grid-template-rows: repeat(2, calc(120px / 2 * 3));
 }
+
+#winner {
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #winner > p {
+    font-size: 16px;
+  }
+
+.hidden {
+    display: none;
+  }
 
 .card {
     height: calc(144px / 2 * 3);

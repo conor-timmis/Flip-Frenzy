@@ -81,6 +81,7 @@ function checkForMatch() {
         score++;
         document.querySelector(".score").textContent = score;
         if (score === cards.length / 2) {
+            showWinner();
             resetScore();
         }
     } else {
@@ -110,6 +111,12 @@ function unflipCards() {
         lockBoard = false;
     }, 250);
 }
+
+function showWinner() {
+    const winner = document.getElementById('winner');
+    winner.classList.remove('hidden');
+}
+
 
 function resetBoard() {
     firstCard = null;
