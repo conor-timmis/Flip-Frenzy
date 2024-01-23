@@ -80,6 +80,7 @@ function checkForMatch() {
             resetScore();
         }
     } else {
+        lockBoard = true;
         unflipCards();
     }
 }
@@ -93,9 +94,12 @@ function disableCards() {
 
 function unflipCards() {
     setTimeout(() => {
-        firstCard.classList.remove("flipped");
-        secondCard.classList.remove("flipped");
+        if (firstCard && secondCard) {
+            firstCard.classList.remove("flipped");
+            secondCard.classList.remove("flipped");
+        }
         resetBoard();
+        lockBoard = false;
     }, 250);
 }
 
