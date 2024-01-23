@@ -44,7 +44,6 @@ p {
     margin-top: 3%;
     grid-gap: 40px;
     grid-template-columns: repeat(4, 120px);
-    grid-template-rows: repeat(2, calc(120px / 2 * 3));
 }
 
 .tracker {
