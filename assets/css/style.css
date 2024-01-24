@@ -70,15 +70,15 @@ p {
     font-family: 'DotGothic16', sans-serif;
     text-align: center;
     padding: 40px;
-  }
+}
 
-  #winner > p {
+#winner>p {
     font-size: 16px;
-  }
+}
 
 .hidden {
     display: none;
-  }
+}
 
 .card {
     height: calc(144px / 2 * 3);
@@ -86,7 +86,7 @@ p {
     border-radius: 10px;
     position: relative;
     transform-style: preserve-3d;
-    transition: all 0.5 ease-in-out;
+    transition: all ease-in-out;
 }
 
 .card.flipped {
@@ -119,25 +119,30 @@ p {
     h1 {
         font-size: 92px;
     }
-    #htp-button{
+
+    #htp-button {
         top: 3%;
         right: 3%;
         font-size: 20px;
     }
+
     .card-container {
         grid-gap: 20px;
         grid-template-columns: repeat(6, 140px);
         grid-template-rows: repeat(2, calc(140px / 2 * 3));
     }
+
     .tracker {
         font-size: 48px;
         display: flex;
         margin-left: 25%;
         margin-right: 25%;
     }
+
     .restartb button {
         font-size: 36px;
     }
+
     p {
         font-size: 48px;
     }
