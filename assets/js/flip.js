@@ -54,7 +54,7 @@ function generateCards() {
         cardBackOccurrences[randomBack] = (cardBackOccurrences[randomBack] || 0) + 1;
         cardElement.innerHTML = `
             <div class="card-container">
-            <img src="/assets/images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
+            <img src="assets/images/card-back${randomBack}.png" alt="random card back" data-card="${card.name}" class="card back">
                 <img src="images/${card.image}" alt="${card.name}" class="card front flipped">
             </div>
         `;
