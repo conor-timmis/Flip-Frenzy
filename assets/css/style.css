@@ -59,6 +59,28 @@ p {
     grid-template-columns: repeat(4, 80px);
 }
 
+.card {
+    height: calc(144px / 2 * 3);
+    width: 96px;
+    border-radius: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
 .tracker {
     display: grid;
     grid-template-rows: auto;
@@ -78,28 +100,6 @@ p {
 
 .hidden {
     display: none;
-}
-
-.card {
-    height: calc(144px / 2 * 3);
-    width: 96px;
-    border-radius: 10px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all ease-in-out;
-}
-
-.card.flipped {
-    transform: rotateY(180deg);
-}
-
-.front,
-.back {
-    backface-visibility: hidden;
-    position: absolute;
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
 }
 
 #howtoplay {
