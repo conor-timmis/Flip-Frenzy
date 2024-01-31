@@ -33,3 +33,27 @@ I used [coolors.co](https://coolors.co/) to generate my colour palette.
 
 - [DotGothic16](https://fonts.google.com/specimen/DotGothic16) Is used for everything text-related within the page. I have chosen this to fit the nostalgic theme I have chosen to go with for the game.
 - Sans-serif is in place to fall back on for all elements.
+
+
+## User Stories
+
+As a new player, I want to be able to enjoy the game in my free time.
+As a new player, I should be able to figure out how to play seamlessly and be able to replay if I choose to.
+As a new player, I would like to be able to track my scores to see how I am doing.
+
+
+### New Site Users
+
+- As a new site user, I would like to learn how to play initially and during gameplay, so that I can figure out how to play.
+- As a new site user, I would like to engage myself in the content, so that I can play till my hearts content.
+- As a new site user, I would like to have a clean game layout, so that I can know what I'm looking at without any trouble.
+- As a new site user, I would like to see social links, so that I can check in with the developer for future news about the game.
+- As a new site user, I would like to be able to see other players scores, so that I can compare my scores.
+
+### Returning Site Users
+
+- As a returning site user, I would like to see new game updates, so that I can enjoy the same game but with new twists.
+- As a returning site user, I would like to be able to track new information, so that I can see how many matches I've played for example.
+- As a returning site user, I would like to be a loyal player, so that I can potentially earn rewards.
+- As a returning site user, I would like to see some community building, so that I can join in and read about potential future features of the game.
+- As a returning site user, I would like to be able to create profiles, so that I can see how I am doing compared to other players.
