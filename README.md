@@ -26,3 +26,10 @@ In this section, I'll talk about how the design process went for Flip Frenzy. I 
 I used [coolors.co](https://coolors.co/) to generate my colour palette.
 
 ![screenshot](documentation/colourscheme.png)
+
+
+### Typography
+
+
+- [DotGothic16](https://fonts.google.com/specimen/DotGothic16) Is used for everything text-related within the page. I have chosen this to fit the nostalgic theme I have chosen to go with for the game.
+- Sans-serif is in place to fall back on for all elements.
