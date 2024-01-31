@@ -210,3 +210,12 @@ I used [W3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) "How
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [JavaScript Academy](https://www.youtube.com/watch?v=xWdkt6KSirw) | entire site | General structure of card game in HTML & JS, including fisher-yates shuffle logic |
 | [StackOverflow](https://stackoverflow.com/) | JavaScript | Helped with JavaScript researching, notably generateCards function (struggled with card back situation) |
+
+
+### Media
+
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [flaticon](https://www.flaticon.com/free-icon/card-games_2118338?term=card&page=1&position=32&origin=tag&related_id=2118338) | entire site | icon/image | favicon on all pages |
+| [itch.io](https://cazwolf.itch.io/pixel-fantasy-cards) | entire site | image(s) | cards for the game |
