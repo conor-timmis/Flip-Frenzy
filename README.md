@@ -187,3 +187,11 @@ You can fork this repository by using the following steps:
 ### Local VS Deployment
 
 I haven't noticed any issues between my Offline and Github Pages versions of the page.
+
+
+## Credits
+
+
+I found a lot of help in my project through [JavaScript Academy](https://www.youtube.com/@JsAcademyOfficial) with the use of [this video](https://www.youtube.com/watch?v=xWdkt6KSirw) to help me with structure and to get me going in the right direction.
+I was guided by my mentor [Tim Nelson](https://github.com/TravelTimN) on what I should look out for during the pages development.
+I used [W3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) "How to Flip Card" section to fix my game towards the end, as I was having some very specific issues with how they flipped and how they rendered differently between Gitpod's live page feature & Github Pages.
