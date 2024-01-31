@@ -57,3 +57,27 @@ As a new player, I would like to be able to track my scores to see how I am doin
 - As a returning site user, I would like to be a loyal player, so that I can potentially earn rewards.
 - As a returning site user, I would like to see some community building, so that I can join in and read about potential future features of the game.
 - As a returning site user, I would like to be able to create profiles, so that I can see how I am doing compared to other players.
+
+
+## Wireframes
+
+
+### Mobile Wireframes
+
+
+Home
+  - ![screenshot](documentation/wireframes/mobile.png)
+
+
+### Tablet Wireframes
+
+
+Home
+  - ![screenshot](documentation/wireframes/tablet.png)
+
+
+### Desktop Wireframes
+
+
+Home
+  - ![screenshot](documentation/wireframes/desktop.png)
