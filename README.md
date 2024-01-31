@@ -121,3 +121,17 @@ Home
     - I want to expand and make the page further but to do that I also need ideas and feedback to make sure there aren't any bugs down the road. I think a page or a form with a way to contact me would be the easiest way to expand as I can take ideas I like and implement them how I want to, or how the user wants to.
 - Difficulty Changing
     - I would like to implement more cards to be able to flip within one game, so it makes the game much more challenging, and possibly a life system so you can't always win.
+   
+
+## Tools & Technologies Used
+
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
