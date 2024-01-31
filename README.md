@@ -195,3 +195,18 @@ I haven't noticed any issues between my Offline and Github Pages versions of the
 I found a lot of help in my project through [JavaScript Academy](https://www.youtube.com/@JsAcademyOfficial) with the use of [this video](https://www.youtube.com/watch?v=xWdkt6KSirw) to help me with structure and to get me going in the right direction.
 I was guided by my mentor [Tim Nelson](https://github.com/TravelTimN) on what I should look out for during the pages development.
 I used [W3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) "How to Flip Card" section to fix my game towards the end, as I was having some very specific issues with how they flipped and how they rendered differently between Gitpod's live page feature & Github Pages.
+
+
+### Content
+
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS title, buttons, paragraphs |
+| [W3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) | entire site |  fix rendering issues I faced |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [JavaScript Academy](https://www.youtube.com/watch?v=xWdkt6KSirw) | entire site | General structure of card game in HTML & JS, including fisher-yates shuffle logic |
+| [StackOverflow](https://stackoverflow.com/) | JavaScript | Helped with JavaScript researching, notably generateCards function (struggled with card back situation) |
