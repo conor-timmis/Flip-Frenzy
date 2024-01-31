@@ -219,3 +219,12 @@ I used [W3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) "How
 | --- | --- | --- | --- |
 | [flaticon](https://www.flaticon.com/free-icon/card-games_2118338?term=card&page=1&position=32&origin=tag&related_id=2118338) | entire site | icon/image | favicon on all pages |
 | [itch.io](https://cazwolf.itch.io/pixel-fantasy-cards) | entire site | image(s) | cards for the game |
+
+
+### Acknowledgements
+
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank the Tommy Holt, a good friend of mine for being supporting, even while I was mourning during this pages development, and helping me stay focused even when I feel I couldn't.
