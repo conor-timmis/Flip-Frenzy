@@ -81,3 +81,43 @@ Home
 
 Home
   - ![screenshot](documentation/wireframes/desktop.png)
+
+
+## Features
+
+
+### Existing Features
+
+- **Flip Card Game**
+
+    - The game for my page is a Memory Card Flip game, the way to play the game is by finding a card and matching it with the same one that's flipped across the board. Every single game the cards are randomised so not every game is the same thing over and over and makes it very good for replayability, I have also implemented a way for the backside of the cards to be randomised to further throw users off the trail when trying to match.
+
+![screenshot](documentation/features/flipgame.png)
+
+- **Restart Button**
+
+    - The restart button is used to stop your current game and start from fresh, but also to reset when you have completed a round and want to play again.
+
+![screenshot](documentation/features/restartbutton.png)
+
+- **How to Play Button**
+
+    - The how to play button is useful to press as you will be able to display how you play the game at any point if you are unsure what to do, once pressed it will push down on the rest of the page and display the 4 rules I have put in place to fully understand what to do within the game. You can press it again to hide the rules again when you are done reading.
+
+![screenshot](documentation/features/howtoplay.png)
+
+- **The Tracker**
+
+    - The tracker is the display I've made to allow you to keep track of your points and attempts throughout games. The points are based on how many pairs of cards you match, the attempts display is how many times you have tried throughout a game.
+
+![screenshot](documentation/features/tracker.png)
+
+### Future Features
+
+
+- Games Won in Addition to Tracker
+    - I'd like to make it so the game can track how many games you've played through all in all, even when you leave the page one day and come back another.
+- Feedback Section/Contact  
+    - I want to expand and make the page further but to do that I also need ideas and feedback to make sure there aren't any bugs down the road. I think a page or a form with a way to contact me would be the easiest way to expand as I can take ideas I like and implement them how I want to, or how the user wants to.
+- Difficulty Changing
+    - I would like to implement more cards to be able to flip within one game, so it makes the game much more challenging, and possibly a life system so you can't always win.
