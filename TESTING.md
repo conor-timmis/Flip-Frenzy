@@ -31,6 +31,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Browser Compatibility
 
+
 | Browser | Home | Notes |
 | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-compatibility/chrome.png) | Works as expected |
@@ -38,3 +39,11 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors not relevant to page in console |
 | Opera GX | ![screenshot](documentation/browser-compatibility/operagx.png) | Works as expected |
 
+
+## Responsiveness
+
+| Device | Home  Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/responsive/mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive/tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive/desktop.png) | Works as expected |
