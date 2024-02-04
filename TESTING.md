@@ -37,7 +37,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-compatibility/chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-compatibility/firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors not relevant to page in console |
+| Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors irrelevant to page in console |
 | Opera GX | ![screenshot](documentation/browser-compatibility/operagx.png) | Works as expected |
 
 
@@ -59,3 +59,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Audit | Notes |
 | --- | --- | --- |
 | Home | ![screenshot](documentation/testing/audit.png) | Minor issue relating to Google Fonts with response time |
+
+
+## User Story Testing
+
+| User Story | Screenshot |
+| --- | --- |
+| As a new site user, I would like to restart the game on completion, so that I can play again. | ![screenshot](documentation/features/restartbutton.png) |
+| As a new site user, I would like to track my score, so that I can see how well I am doing within the game. | ![screenshot](documentation/features/tracker.png) |
+| As a new site user, I would like to find out how to play, so that I can put my skills to the test. | ![screenshot](documentation/features/howtoplay.png) |
