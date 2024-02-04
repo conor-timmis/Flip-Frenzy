@@ -27,3 +27,14 @@ My page is showing no errors, but is showing 1 warning, with the use of the "-we
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 
 [screenshot](documentation/testing/flipgame.png)
+
+
+## Browser Compatibility
+
+| Browser | Home | Notes |
+| --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/browser-compatibility/chrome.png) | Works as expected |
+| Firefox | ![screenshot](documentation/browser-compatibility/firefox.png) | Works as expected |
+| Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors not relevant to page in console |
+| Opera GX | ![screenshot](documentation/browser-compatibility/operagx.png) | Works as expected |
+
