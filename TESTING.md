@@ -56,6 +56,6 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page | Audit Part 1 | Audit Part 2 | Notes |
+| Page | Audit | Notes |
 | --- | --- | --- |
 | Home | ![screenshot](documentation/testing/audit.png) | Minor issue relating to Google Fonts with response time |
