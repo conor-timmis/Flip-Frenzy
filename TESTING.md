@@ -31,6 +31,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Browser Compatibility
 
+I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | Notes |
 | --- | --- | --- | --- |
@@ -42,8 +43,19 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Responsiveness
 
-| Device | Home  Notes |
+I've tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Home | Notes |
 | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsiveness/desktop.png) | Works as expected |
+
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Audit Part 1 | Audit Part 2 | Notes |
+| --- | --- | --- |
+| Home | ![screenshot](documentation/testing/audit.png) | Minor issue relating to Google Fonts with response time |
