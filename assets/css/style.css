@@ -1,202 +1,201 @@
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #1e2329;
-    width: 100%;
-    min-height: 100vh;
-    color: #f3ba2f;
-  }
-  
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e2329;
+  width: 100%;
+  min-height: 100vh;
+  color: #f3ba2f;
+}
+
+h1 {
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+p {
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.restartb {
+  display: flex;
+  justify-content: center;
+}
+
+.restartb button {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(55, 207, 121, 0.65);
+  color: white;
+  border-color: #f3ba2f;
+}
+
+#htp-button {
+  position: fixed;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  top: 1%;
+  right: 5%;
+  padding: 5px;
+  background-color: rgba(55, 207, 121, 0.65);
+  color: white;
+  border-color: #f3ba2f;
+}
+
+.card-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 3%;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 80px);
+}
+
+.flip-card {
+  height: calc(144px / 2 * 3);
+  width: 96px;
+  border-radius: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.card-image {
+  height: 100%;
+  max-width: 100%;
+}
+
+.tracker {
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#winner {
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+#winner>p {
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+#howtoplay {
+  font-family: "DotGothic16", sans-serif;
+  display: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#howtoplay ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+@media screen and (min-width: 576px) {
   h1 {
-    font-family: "DotGothic16", sans-serif;
-    text-align: center;
-    font-size: 32px;
+    font-size: 48px;
   }
-  
-  p {
-    font-family: "DotGothic16", sans-serif;
-    text-align: center;
-    font-size: 32px;
-  }
-  
-  .restartb {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .restartb button {
-    font-family: "DotGothic16", sans-serif;
-    font-size: 14px;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgba(55, 207, 121, 0.65);
-    color: white;
-    border-color: #f3ba2f;
-  }
-  
+
   #htp-button {
     position: fixed;
     font-family: "DotGothic16", sans-serif;
-    font-size: 14px;
-    border-radius: 5px;
-    top: 1%;
-    right: 5%;
-    padding: 5px;
-    background-color: rgba(55, 207, 121, 0.65);
-    color: white;
-    border-color: #f3ba2f;
+    font-size: 16px;
+    top: 2%;
+    right: 2%;
   }
-  
+
   .card-container {
-    display: grid;
-    justify-content: center;
-    margin-top: 3%;
-    grid-gap: 20px;
+    grid-gap: 25px;
     grid-template-columns: repeat(4, 80px);
   }
-  
-  .flip-card {
-    height: calc(144px / 2 * 3);
-    width: 96px;
-    border-radius: 10px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    transform: rotateY(180deg);
-  }
-  
-  .card-image {
-    object-fit: stretch;
-    height: 100%;
-    max-width: 100%;
-  }
-  
+
   .tracker {
-    display: grid;
-    grid-template-rows: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    font-size: 48px;
+    margin-left: 25%;
+    margin-right: 25%;
   }
-  
-  #winner {
-    font-family: "DotGothic16", sans-serif;
-    text-align: center;
-    padding: 40px;
+
+  .restartb button {
+    font-size: 18px;
   }
-  
-  #winner>p {
-    font-size: 16px;
+
+  p {
+    font-size: 36px;
   }
-  
-  .hidden {
-    display: none;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 92px;
   }
-  
-  #howtoplay {
-    font-family: "DotGothic16", sans-serif;
-    display: none;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
+
+  #htp-button {
+    top: 3%;
+    right: 3%;
+    font-size: 20px;
   }
-  
-  #howtoplay ol {
-    text-align: center;
-    list-style-position: inside;
+
+  .card-container {
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: repeat(2, calc(140px / 2 * 3));
   }
-  
-  @media screen and (min-width: 576px) {
-    h1 {
-      font-size: 48px;
-    }
-  
-    #htp-button {
-      position: fixed;
-      font-family: "DotGothic16", sans-serif;
-      font-size: 16px;
-      top: 2%;
-      right: 2%;
-    }
-  
-    .card-container {
-      grid-gap: 25px;
-      grid-template-columns: repeat(4, 80px);
-    }
-  
-    .tracker {
-      font-size: 48px;
-      margin-left: 25%;
-      margin-right: 25%;
-    }
-  
-    .restartb button {
-      font-size: 18px;
-    }
-  
-    p {
-      font-size: 36px;
-    }
+
+  .tracker {
+    font-size: 48px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
   }
-  
-  @media screen and (min-width: 992px) {
-    h1 {
-      font-size: 92px;
-    }
-  
-    #htp-button {
-      top: 3%;
-      right: 3%;
-      font-size: 20px;
-    }
-  
-    .card-container {
-      grid-gap: 20px;
-      grid-template-columns: repeat(6, 140px);
-      grid-template-rows: repeat(2, calc(140px / 2 * 3));
-    }
-  
-    .tracker {
-      font-size: 48px;
-      display: flex;
-      margin-left: 25%;
-      margin-right: 25%;
-    }
-  
-    .restartb button {
-      font-size: 36px;
-    }
-  
-    p {
-      font-size: 48px;
-    }
+
+  .restartb button {
+    font-size: 36px;
   }
+
+  p {
+    font-size: 48px;
+  }
+}
