@@ -44,6 +44,6 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Device | Home  Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive/mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive/tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive/desktop.png) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsiveness/desktop.png) | Works as expected |
