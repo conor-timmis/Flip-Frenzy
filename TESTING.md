@@ -68,3 +68,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a new site user, I would like to restart the game on completion, so that I can play again. | ![screenshot](documentation/features/restartbutton.png) |
 | As a new site user, I would like to track my score, so that I can see how well I am doing within the game. | ![screenshot](documentation/features/tracker.png) |
 | As a new site user, I would like to find out how to play, so that I can put my skills to the test. | ![screenshot](documentation/features/howtoplay.png) |
+
+## Bugs
+
+One bug I would like to mention, though fixed, is when I would have problems with the display of the cards. It started with specifying the directory of the cards incorrectly, as it would act differently between Gitpod's Live Page and Github Pages. Once fixed, I came across a weird rendering issue/bug that would let me play the game perfectly fine on Firefox, but not on anything else. In the end I had to find a way to "re-write" what I had to fix it, and found the W3Schools page I mentioned in the README originally. This page helped me re-structure and helped me make sure things were working properly again.
+
+## Unfixed Bugs
+
+
+There are no remaining bugs that I am aware of.
