@@ -60,7 +60,7 @@ p {
 }
 
 .flip-card {
-  height: calc(144px / 2 * 3);
+  height: 144px;
   width: 96px;
   border-radius: 10px;
   position: relative;
