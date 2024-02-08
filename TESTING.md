@@ -34,7 +34,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | Notes |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-compatibility/chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-compatibility/firefox.png) | Works as expected |
 | Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors irrelevant to page in console |
