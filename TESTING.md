@@ -35,10 +35,10 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-compatibility/chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-compatibility/firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-compatibility/edge.png) | Shows errors irrelevant to page in console |
-| Opera GX | ![screenshot](documentation/browser-compatibility/operagx.png) | Works as expected |
+| Chrome | ![screenshot](documentation/testing/browser-compatibility/chrome.png) | Works as expected |
+| Firefox | ![screenshot](documentation/testing/browser-compatibility/firefox.png) | Works as expected |
+| Edge | ![screenshot](documentation/testing/browser-compatibility/edge.png) | Shows errors irrelevant to page in console |
+| Opera GX | ![screenshot](documentation/testing/browser-compatibility/operagx.png) | Works as expected |
 
 
 ## Responsiveness
@@ -47,9 +47,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/desktop.png) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness/mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness/tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/testing/responsiveness/desktop.png) | Works as expected |
 
 
 ## Lighthouse Audit
